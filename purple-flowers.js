@@ -2,7 +2,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
     clearTimeout(c);
-  }, 3700); // Changed delay to 4000 milliseconds (4 seconds)
+  }, 5000); // Changed delay to 4000 milliseconds (4 seconds)
 
   // Audio setup
   const audio = new Audio("music3.mp3"); 
