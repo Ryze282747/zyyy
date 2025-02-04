@@ -5,7 +5,7 @@ onload = () => {
   }, 3700); // Changed delay to 4000 milliseconds (4 seconds)
 
   // Audio setup
-  const audio = new Audio("music3.mp3"); 
+  const audio = new Audio("music4.mp3"); 
   audio.play(); // Play the music immediately
 
   // Start the music after the flowers finish blooming
