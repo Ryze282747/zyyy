@@ -2,7 +2,7 @@ $(document).ready(function () {
   var envelope = $("#envelope");
   var btn_open = $("#open");
   var btn_reset = $("#reset");
-  var audio = new Audio("music5.mp3"); // Now using "music2.mp3"
+  var audio = new Audio("music6.mp3"); // Now using "music2.mp3"
 
   envelope.click(function () {
     open();
